@@ -1,9 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import Introduce from "./components/AboutMe/Introduce";
 import AboutMe from './components/AboutMe/AboutMe';
-import AnimationTitle from './components/Home/AnimationTitle';
+import Home from './components/Home/Home';
+import Works from './components/Works_Skills/Works_Skills';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
       <Router>
       <NavBar />
         <Routes>
-          <Route path="/" element={<AnimationTitle />}>Home</Route>
-          <Route path="/aboutme" element={<AboutMe />}>About Me</Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/aboutme" element={<AboutMe />}></Route>
+          <Route path="/works_skills" element={<Works />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </Router>
     </div>
