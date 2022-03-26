@@ -28,28 +28,28 @@ function NavBar() {
 
      {/* <Link>に直すこと */}
           <li className="nav-item active">
-            <Link className="nav-link" to="/aboutme">
+            <Link className="nav-link" to="/">
               <i className="fas fa-tachometer-alt"></i>
+              Home
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link to="/aboutme" className="nav-link">
+              <i className="fas fa-address-book"></i>
               About Me
             </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link">
+            <Link to="/" className="nav-link">
               <i className="fas fa-address-book"></i>
               Works
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link">
+            <Link to="/" className="nav-link">
               <i className="fas fa-address-book"></i>
-              Skill & Resume
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a className="nav-link">
-              <i className="fas fa-address-book"></i>
-              Contact
-            </a>
+              Skills & Contact
+            </Link>
           </li>
         </ul>
       </div>
