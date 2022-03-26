@@ -18,6 +18,6 @@ function BriefAboutMe() {
 
 const Container = styled.div`
   width: 100%;
-  height: auto;
+  height: 70%;
 `
 export default BriefAboutMe
