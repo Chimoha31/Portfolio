@@ -28,10 +28,10 @@ function NavBar() {
 
      {/* <Link>に直すこと */}
           <li className="nav-item active">
-            <a className="nav-link">
+            <Link className="nav-link" to="/aboutme">
               <i className="fas fa-tachometer-alt"></i>
               About Me
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
             <a className="nav-link">
