@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import "./BriefAboutMe.css";
 import { Link } from "react-router-dom";
 
