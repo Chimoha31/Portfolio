@@ -1,48 +1,51 @@
-.aboutme_container {
-  background-color: #333333;
-  width: 100%;
-  height: auto;
-  color: #fff;
+h1,
+p {
+  text-align: center;
 }
 
-.container {
+.works_container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   justify-content: space-around;
 }
 
-.container li {
-  list-style: none;
+.container_works {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(58, 240, 155);
 }
-
-.container h1 {
-  color: rgb(58, 240, 155);
+.border_works {
+  border: 1px solid #333333;
+  width: 30%;
+  margin: 50px auto;
+}
+.container_works h1 {
+  color: #333333;
   font-family: "Titan One", cursive;
   font-size: 4rem;
   padding-top: 50px;
 }
-
-.aboutme_border {
-  border: 1px solid #fff;
-  width: 30%;
-  margin: 50px auto;
-}
-
-.container p {
+.container_works p {
+  color: #333333;
+  width: 70%;
   margin: 0 auto;
 }
 
-.aboutme_btn {
-  margin: 30px 0;
-  font-size: 1.5rem;
+.aboutme_btn_works {
   text-decoration: none;
 }
 
-.aboutme_btn {
-  position:relative;
+
+
+
+.aboutme_btn_works {
   font-family: "Courier New", Courier, monospace;
-  color: #fff;
+  color: #333333;
   border: 1px solid #fff;
   padding: 10px 30px;
   display: inline-block;
@@ -51,49 +54,48 @@
   transition: all 0.3s ease-in-out;
 }
 
-.aboutme_btn:hover {
-  background: rgba(116, 226, 12, 0.897);
+.aboutme_btn_works:hover {
+  background: rgba(248, 144, 239, 0.897);
   color: #000;
   border-color: transparent;
 }
 
-.aboutme_btn::before,
-.aboutme_btn::after {
+.aboutme_btn_works::before,
+.aboutme_btn_works::after {
   content: "";
   position: absolute;
-  border: solid rgb(218, 196, 3);
+  border: solid rgb(248, 167, 16);
   width: 10px;
   height: 10px;
   transition: all 0.3s ease-in-out;
 }
 
-.aboutme_btn::before {
+.aboutme_btn_works::before {
   top: -6px;
   left: -6px;
   border-width: 1px 0 0 1px;
 }
 
-.aboutme_btn::after {
+.aboutme_btn_works::after {
   bottom: -6px;
   right: -6px;
   border-width: 0 1px 1px 0;
 }
 
-.aboutme_btn:hover::before,
-.aboutme_btn:hover::after {
+.aboutme_btn_works:hover::before,
+.aboutme_btn_works:hover::after {
   width: calc(100% + 11px);
   height: calc(100% + 11px);
-  border-color: rgb(214, 211, 15);
+  border-color: rgb(238, 89, 19);
 }
 
 @media (min-width: 767px) {
-  .container p {
+  .container_works p {
     width: 60%;
   }
 }
 @media (min-width: 1025px) {
-  .container p {
+  .container_works p {
     width: 50%;
   }
 }
-

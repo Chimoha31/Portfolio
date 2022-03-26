@@ -2,6 +2,7 @@ import React from "react";
 import AnimationTitle from "./AnimationTitle";
 import Introduce from './Introduce';
 import BriefAboutMe from './BriefAboutMe';
+import BriefWorks from './BriefWorks';
 import styled from 'styled-components';
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <AnimationTitle />
       <Introduce />
       <BriefAboutMe />
+      <BriefWorks />
     </Container>
   );
 }
