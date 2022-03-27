@@ -6,6 +6,7 @@
   color: rgb(58, 240, 155);
   font-family: "Titan One", cursive;
   font-size: 3rem;
+  text-align: center;
 }
 
 @media (min-width: 767px) {

@@ -26,6 +26,7 @@
 }
 
 .image img{
+  position: relative;
   display: block;
   margin: 0 auto;
   width: 300px;
@@ -63,13 +64,16 @@
      width: 0px;
     }
     100% {
-      width: 210%;
+      width: 200%;
     }
   }
   .introduce_container .image {
     position: absolute;
     left: 55%;
     z-index: 900;
+  }
+  .introduce_container img{
+    margin-left: 50px;
   }
 }
 
@@ -84,5 +88,8 @@
     font-size: 1.4rem;
     margin-top: 10px;
     padding: 0.8rem;
+  }
+  .introduce_container img{
+    margin-left: 80px;
   }
 }

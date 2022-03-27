@@ -8,12 +8,15 @@
 .container_w {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
 }
 
 .container_w li {
   list-style: none;
+}
+.container_w li:nth-child(4) {
+  margin: 0 auto;
 }
 
 .container_w h1 {
@@ -21,16 +24,18 @@
   font-family: "Titan One", cursive;
   font-size: 4rem;
   padding-top: 50px;
+  text-align: center;
 }
 
 .works_border {
-  border: 1px solid #333333;
-  width: 30%;
+  border-bottom: 1px solid #333333;
+  width: 20%;
   margin: 50px auto;
 }
 
 .container_w p {
   margin: 0 auto;
+  text-align: center;
 }
 
 .works_btn {
