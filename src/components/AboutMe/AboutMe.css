@@ -10,14 +10,12 @@
 }
 
 @media (min-width: 767px) {
-  .title h1{
+  .title h1 {
     font-size: 4rem;
   }
-  
 }
 @media (min-width: 1025px) {
   .title h1 {
     font-size: 5rem;
   }
-  
 }
