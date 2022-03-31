@@ -13,6 +13,7 @@ function Introduce() {
       <div className="image">
         <img src={chiho} alt="Chiho" />
       </div>
+     
     </div>
   );
 }

@@ -10,6 +10,8 @@ import nodejs from '../../images/nodejs.png';
 import stripe from '../../images/stripe.png';
 import firebase from '../../images/firebase.png';
 import vercel from '../../images/vercel.png';
+import heroku from '../../images/heroku.png';
+import netlify from '../../images/netlify.png';
 import git from '../../images/git.png';
 import github from '../../images/github.png';
 
@@ -25,8 +27,10 @@ function Skills() {
         <li><img src={typescript} alt="typescript icon"/></li>
         <li><img src={nodejs} alt="nodejs icon"/></li>
         <li><img src={stripe} alt="stripe icon"/></li>
-        <li><img src={vercel} alt="vercel icon" className="vercel_icon"/></li>
         <li><img src={firebase} alt="firebase icon"/></li>
+        <li><img src={vercel} alt="vercel icon" className="vercel_icon"/></li>
+        <li><img src={heroku} alt="heroku icon"/></li>
+        <li><img src={netlify} alt="netlify icon"/></li>
         <li><img src={git} alt="git icon"/></li>
         <li><img src={github} alt="github icon"/></li>
       </ul>

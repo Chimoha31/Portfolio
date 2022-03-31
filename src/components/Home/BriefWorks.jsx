@@ -16,15 +16,16 @@ function BriefWorks() {
         <li>
           <p>
             I Have developed several websites and applications by using the
-            following skills.
+            following skills. Especially, React.
           </p>
         </li>
         <li>
           <Skills />
         </li>
+        <li><p>↓ See my projects from the below botton ↓</p></li>
         <li className="work_detail">
           <Link to="/works_skills" className="works_btn">
-            Detail
+            Project
           </Link>
         </li>
       </ul>
