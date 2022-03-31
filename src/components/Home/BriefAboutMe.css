@@ -1,14 +1,12 @@
 .aboutme_container {
   background-color: #333333;
   width: 100%;
-  height: auto;
   color: #fff;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: space-around;
   margin-bottom: 0;
 }

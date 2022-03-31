@@ -3,22 +3,18 @@ import AnimationTitle from "./AnimationTitle";
 import Introduce from './Introduce';
 import BriefAboutMe from './BriefAboutMe';
 import BriefWorks from './BriefWorks';
-import styled from 'styled-components';
+import './Home.css';
 
 function Home() {
   return (
-    <Container>
+    <div className="home_container">
       <AnimationTitle />
       <Introduce />
       <BriefAboutMe />
       <BriefWorks />
-    </Container>
+    </div>
   );
 }
 
-const Container = styled.div`
-width: 100%;
-height: 100vh;
-`
 
 export default Home;

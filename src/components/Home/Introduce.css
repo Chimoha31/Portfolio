@@ -1,7 +1,7 @@
 .introduce_container {
-  /* display: flex; */
+ border: 1px solid red;
   width: 100%;
-  height: 80%;
+  height: 90vh;
   margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@
   font-weight: 300;
 }
 .introduce h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-family: 'Titan One', cursive;
 }
 .introduce p {
@@ -36,6 +36,7 @@
 
 @media (min-width: 767px) {
   .introduce_container {
+    height: 70vh;
     margin-top: 100px;
     position: relative;
   }
@@ -44,10 +45,10 @@
     left: 15%;
   }
   .introduce_container .introduce h2{
-   font-size: 3rem;
+   font-size: 2.9rem;
   }
   .introduce_container .introduce h1{
-   font-size: 2.6rem;
+   font-size: 2.8rem;
   }
   .introduce_container .introduce p {
     text-align:start;

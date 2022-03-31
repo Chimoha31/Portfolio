@@ -1,6 +1,7 @@
 import React from "react";
 import chiho from "../../images/chiho.JPG";
 import './Introduce.css';
+import Scroll from '../parts/Scroll';
 
 function Introduce() {
   return (
@@ -13,7 +14,9 @@ function Introduce() {
       <div className="image">
         <img src={chiho} alt="Chiho" />
       </div>
-     
+     <div>
+      <Scroll />
+     </div>
     </div>
   );
 }
