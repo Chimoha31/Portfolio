@@ -14,10 +14,12 @@ function BriefAboutMe() {
         </li>
         <li>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-            totam inventore libero ducimus quasi corrupti tempore dolore
-            assumenda fugit iure. Pariatur harum fugiat laborum quidem,
-            voluptates assumenda amet libero facilis!
+            A front-end developer who enjoys building creative websites and
+            applications, and I love to create websites to imagine people's
+            smiles with my works. I always think of helping people's daily life
+            with my works. It is no exaggeration to say that I make works to make
+            people smile. Also, I'm a hard worker who combines a passion for web
+            development by using all of my knowledge. The below botton is my timeline of education and work experience.
           </p>
         </li>
         <li>

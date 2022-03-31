@@ -21,7 +21,7 @@
 .introduce p {
   font-size: 2rem;
   font-weight: 300;
-  width: 100%;
+  max-width: 100vw;
   background-color: rgb(58, 240, 155);
 }
 
@@ -50,7 +50,6 @@
    font-size: 2.6rem;
   }
   .introduce_container .introduce p {
-    /* width: 250%; */
     text-align:start;
     font-size: 1.2rem;
     margin-top: 40px;

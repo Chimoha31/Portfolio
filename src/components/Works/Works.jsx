@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Works() {
   return (
     <div>
-      <h1>Works And Skills</h1>
+      <h1>Works</h1>
     </div>
   )
 }

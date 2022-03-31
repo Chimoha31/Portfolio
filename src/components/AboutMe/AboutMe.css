@@ -10,6 +10,9 @@
 }
 
 @media (min-width: 767px) {
+  .aboutme_container .container p {
+    width: 90%;
+  }
   .title h1 {
     font-size: 4rem;
   }

@@ -14,6 +14,8 @@ import "react-vertical-timeline-component/style.min.css";
 function AboutMe() {
   let workIconStyles = { background: "pink" };
   let schoolIconStyles = { background: "yellow" };
+
+  
   return (
     <Div>
       <div className="title">

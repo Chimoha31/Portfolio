@@ -40,9 +40,9 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item active">
-            <Link to="/works_skills" className="nav-link">
+            <Link to="/works" className="nav-link">
               <i className="fas fa-address-book"></i>
-              Works & Skills
+              Works
             </Link>
           </li>
           <li className="nav-item active">
