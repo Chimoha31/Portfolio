@@ -8,7 +8,7 @@
 .container_w {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  padding: 0;
   justify-content: space-around;
 }
 
@@ -22,7 +22,7 @@ Skill icons
 
 
 
-.container_w li:last-child {
+.container_w .work_detail {
   margin: 0 auto;
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./BriefWorks.css";
+import Skills from "./Skills";
 
 function BriefWorks() {
   return (
@@ -18,8 +19,10 @@ function BriefWorks() {
             following skills.
           </p>
         </li>
-    
         <li>
+          <Skills />
+        </li>
+        <li className="work_detail">
           <Link to="/works_skills" className="works_btn">
             Detail
           </Link>

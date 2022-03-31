@@ -1,0 +1,16 @@
+.skills_container ul {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills_container ul li img{
+  width: 64px;
+  height: 64px;
+}
+.skills_container ul .vercel_icon{
+  width: 64px;
+  height: 30px;
+}
