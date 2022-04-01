@@ -15,11 +15,11 @@ function BriefAboutMe() {
         <li>
           <p>
             A front-end developer who enjoys building creative websites and
-            applications, and I love to create websites to imagine people's
-            smiles with my works. I always think of helping people's daily life
-            with my works. It is no exaggeration to say that I make works to make
-            people smile. Also, I'm a hard worker who combines a passion for web
-            development by using all of my knowledge. The below botton is my timeline of education and work experience.
+            applications. I love to create websites that put smiles on people's
+            faces. I always think of helping people's daily life with my work.
+            I'm a hard worker who possesses a passion for web development by
+            combining all of my knowledge and skills. Below is a timeline of
+            my education and work experience.
           </p>
         </li>
         <li>

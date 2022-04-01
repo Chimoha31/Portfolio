@@ -1,13 +1,15 @@
 .introduce_container {
- border: 1px solid red;
   width: 100%;
   height: 90vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .introduce {
   text-align: center;
-  margin-top: 50px;
 }
 
 .introduce h2 {
@@ -19,7 +21,7 @@
   font-family: 'Titan One', cursive;
 }
 .introduce p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 300;
   max-width: 100vw;
   background-color: rgb(58, 240, 155);
@@ -29,16 +31,17 @@
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 300px  ;
   height:300px;
   border-radius: 10%;
 }
 
 @media (min-width: 767px) {
   .introduce_container {
-    height: 70vh;
+    height: 90vh;
     margin-top: 100px;
     position: relative;
+    justify-content: start;
   }
   .introduce_container .introduce {
     position: absolute;
