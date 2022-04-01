@@ -1,16 +1,28 @@
 .skills_container ul {
-  /* border: 1px solid red; */
+  padding-left: 0;
+  padding: 0 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.skills_container ul li img{
-  width: 64px;
-  height: 64px;
+.skills_container ul li img {
+  width: 72px;
+  height: 72px;
 }
-.skills_container ul .vercel_icon{
-  width: 64px;
-  height: 30px;
+.skills_container ul .vercel_icon {
+  width: 72px;
+  height: 35px;
+}
+
+@media (min-width: 767px) {
+  .skills_container ul li {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .skills_container ul li {
+    padding: 0 35px;
+  }
 }

@@ -7,6 +7,7 @@ import js from '../../images/js.png';
 import react from '../../images/react.png';
 import typescript from '../../images/typescript.png';
 import nodejs from '../../images/nodejs.png';
+import materialui from '../../images/materialui.png';
 import stripe from '../../images/stripe.png';
 import firebase from '../../images/firebase.png';
 import vercel from '../../images/vercel.png';
@@ -26,6 +27,7 @@ function Skills() {
         <li><img src={react} alt="react icon"/></li>
         <li><img src={typescript} alt="typescript icon"/></li>
         <li><img src={nodejs} alt="nodejs icon"/></li>
+        <li><img src={materialui} alt="materialui icon"/></li>
         <li><img src={stripe} alt="stripe icon"/></li>
         <li><img src={firebase} alt="firebase icon"/></li>
         <li><img src={vercel} alt="vercel icon" className="vercel_icon"/></li>

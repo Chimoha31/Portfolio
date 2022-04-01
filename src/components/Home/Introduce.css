@@ -13,32 +13,33 @@
 }
 
 .introduce h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 .introduce h1 {
-  font-size: 2.6rem;
-  font-family: 'Titan One', cursive;
+  font-size: 3.5rem;
+  font-family: "Titan One", cursive;
 }
 .introduce p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  padding: 8px 0;
   font-weight: 300;
   max-width: 100vw;
   background-color: rgb(58, 240, 155);
 }
 
-.image img{
+.image img {
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 300px  ;
-  height:300px;
-  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 @media (min-width: 767px) {
   .introduce_container {
-    height: 90vh;
+    height: 60vh;
     margin-top: 100px;
     position: relative;
     justify-content: start;
@@ -47,14 +48,14 @@
     position: absolute;
     left: 15%;
   }
-  .introduce_container .introduce h2{
-   font-size: 2.9rem;
+  .introduce_container .introduce h2 {
+    font-size: 2.9rem;
   }
-  .introduce_container .introduce h1{
-   font-size: 2.8rem;
+  .introduce_container .introduce h1 {
+    font-size: 2.8rem;
   }
   .introduce_container .introduce p {
-    text-align:start;
+    text-align: start;
     font-size: 1.2rem;
     margin-top: 40px;
     padding: 0.8rem;
@@ -64,7 +65,7 @@
 
   @keyframes subtitle {
     0% {
-     width: 0px;
+      width: 0px;
     }
     100% {
       width: 200%;
@@ -72,27 +73,32 @@
   }
   .introduce_container .image {
     position: absolute;
-    left: 55%;
+    left: 50%;
+    bottom: 40%;
     z-index: 900;
   }
-  .introduce_container img{
+
+  .introduce_container img {
     margin-left: 50px;
   }
 }
 
 @media (min-width: 1025px) {
-  .introduce_container .introduce h2{
-   font-size: 4rem;
+  .introduce_container .introduce h2 {
+    font-size: 4rem;
   }
-  .introduce_container .introduce h1{
-   font-size: 3.5rem;
+  .introduce_container .introduce h1 {
+    font-size: 3.5rem;
   }
   .introduce_container .introduce p {
     font-size: 1.4rem;
     margin-top: 10px;
     padding: 0.8rem;
   }
-  .introduce_container img{
+ 
+  .introduce_container img {
     margin-left: 80px;
+    width: 330px;
+    height: 330px;
   }
 }

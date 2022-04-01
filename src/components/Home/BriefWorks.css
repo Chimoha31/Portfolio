@@ -10,6 +10,7 @@
   flex-direction: column;
   padding: 0;
   justify-content: space-around;
+  margin-bottom: 0;
 }
 
 .container_w li {
