@@ -36,6 +36,8 @@
 .container p {
   margin: 0 auto;
   text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
 }
 
 .aboutme_btn {

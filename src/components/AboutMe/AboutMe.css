@@ -1,3 +1,12 @@
+.timeline_container {
+  /* background: #333333; */
+  background-color: rgb(236, 235, 235);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+}
+
 .title {
   padding: 30px 0;
 }
@@ -7,6 +16,10 @@
   font-family: "Titan One", cursive;
   font-size: 3rem;
   text-align: center;
+}
+
+.discription {
+  padding: 1.5rem 0 2rem 0;
 }
 
 @media (min-width: 767px) {

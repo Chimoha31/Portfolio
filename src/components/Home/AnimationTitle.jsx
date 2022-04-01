@@ -42,12 +42,17 @@ p {
   font-size: 56px;
   text-align: center;
 }
+& p {
+  font-family: "Titan One", cursive;
+}
 & h1 {
   font-family: "Arizonia", cursive;
+  font-weight: bold;
   @media (min-width: 767px) {
     font-size: 80px;
     padding-bottom: 50px;
   }
+  
   @media (min-width: 1025px) {
     font-size: 95px;
     padding-bottom: 100px;

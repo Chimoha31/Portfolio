@@ -38,13 +38,16 @@
 
 .container_w p {
   margin: 0 auto;
+  padding-bottom: 30px;
   text-align: center;
+  font-size: 1.3rem;
 }
 
-.works_btn {
-  margin: 30px 0;
-  font-size: 1.5rem;
-  text-decoration: none;
+.btn_p p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 20px; 
 }
 
 .works_btn {
@@ -53,6 +56,9 @@
   color: #333333;
   border: 1px solid #ccc;
   padding: 10px 30px;
+  margin: 0 0 30px 0;
+  font-size: 1.5rem;
+  text-decoration: none;
   display: inline-block;
   text-decoration: none;
   outline: none;

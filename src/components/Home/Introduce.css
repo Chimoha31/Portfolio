@@ -22,6 +22,7 @@
 }
 .introduce p {
   font-size: 1.6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 8px 0;
   font-weight: 300;
   max-width: 100vw;
