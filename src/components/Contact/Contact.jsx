@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css"
+import "./Contact.css";
+
 
 function Contact() {
   const form = useRef();
@@ -10,11 +11,8 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_USER_ID"
-      )
+      
+         )
       .then(
         (result) => {
           console.log(result.text);
@@ -26,7 +24,7 @@ function Contact() {
   };
   return (
     <div className="contact_container">
-      <div className="contact_left">
+      <div className="contact_tools">
         <ul>
           <li>
             <i className="fas fa-envelope-square"></i>
@@ -38,7 +36,7 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <div className="contact_right">
+      <div className="contact_form">
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" />

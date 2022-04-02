@@ -1,0 +1,30 @@
+.contact_container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Contact tools */
+.contact_tools {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_tools ul {
+  list-style: none;
+}
+.contact_tools ul li {
+  display: flex;
+}
+
+/* Contact form */
+.contact_form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form form{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
