@@ -3,25 +3,49 @@ import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import linkedin from "../../gif/linkedin.gif";
 import github from "../../gif/github.gif";
+import cellphone from "../../gif/cellphone.gif";
+import gmail from "../../gif/gmail.gif";
 
 function Contact() {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm().then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_USER_ID"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+
   return (
     <div className="contact_container">
       <h1>Reach Me</h1>
+      {/* form */}
+      <div className="contact_form">
+        <div className="form_container">
+          <form ref={form} onSubmit={handleSubmit}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" className="submit_btn" />
+          </form>
+        </div>
+      </div>
       <div className="contact_sns">
         <a href="https://www.linkedin.com/in/chiho1108developer/">
           <img src={linkedin} alt="linkedin gif" />
@@ -33,27 +57,14 @@ function Contact() {
       <div className="contact_tools">
         <ul>
           <li>
-            <i className="fas fa-mobile-alt"></i>
+            <img src={cellphone} alt="cellphone gif" />
             <p>+1(604)7852569</p>
           </li>
           <li>
-            <i className="fas fa-envelope-square"></i>
+            <img src={gmail} alt="gmail gif" />
             <p>mokochii1108@gmail.com</p>
           </li>
         </ul>
-      </div>
-      <div className="contact_form">
-        <div className="form_container">
-          <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" className="submit_btn" />
-          </form>
-        </div>
       </div>
     </div>
   );
