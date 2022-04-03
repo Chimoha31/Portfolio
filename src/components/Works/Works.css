@@ -1,1 +1,94 @@
-/* height: auto; */
+.works_container {
+  border: 1px solid red;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.works_card {
+  border: 1px solid #ccc;
+  box-shadow: 3px 5px 20px -4px #777777;
+  width: 350px;
+  height: auto;
+  margin: 30px 20px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform .7s ease-out;
+}
+.works_card:hover {
+  transform: scale(1.1);
+}
+.works_card img{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* --------------------------------- */
+@media (min-width: 767px) {
+  .works_card img{
+   height: 200px;
+  }
+}
+@media (min-width: 1025px) {
+  .works_card img{
+   height: 200px;
+  }
+}
+/* ---------------------------------- */
+.tech_icons {
+  margin-bottom: 20px;
+}
+.tech_icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.github,
+.app {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Titan One", cursive;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+.github {
+  background-color: rgb(14, 150, 150);
+  color: #fff;
+}
+
+.app {
+  border: 1px solid #ccc;
+  color: rgb(9, 145, 145);
+}
+
+@media (min-width: 767px) {
+  .works_card {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .works_card {
+    width: 430px;
+  }
+  .tech_icons img {
+    width: 50px;
+    height: 50px;
+  }
+  .github,
+  .app {
+    font-size: 18px;
+  }
+}
