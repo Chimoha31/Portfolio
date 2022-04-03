@@ -24,7 +24,7 @@ function BriefWorks() {
         </li>
         <li className="btn_p"><p>↓ See my projects from the below button ↓</p></li>
         <li className="work_detail">
-          <Link to="/works_skills" className="works_btn">
+          <Link to="/works" className="works_btn">
             Project
           </Link>
         </li>

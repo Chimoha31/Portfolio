@@ -82,6 +82,7 @@
 
 .form_container label{
   margin-top: 10px;
+  /* color:#fff; */
 }
 
 .form_container input,
@@ -97,7 +98,7 @@
 }
 
 .submit_btn {
-  margin: 20px auto;
+  margin: 30px auto;
   background-color: #4ba3f6;
   color: #fff;
   border: none;

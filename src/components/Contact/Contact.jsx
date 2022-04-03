@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef} from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import linkedin from "../../gif/linkedin.gif";
@@ -7,6 +7,7 @@ import cellphone from "../../gif/cellphone.gif";
 import gmail from "../../gif/gmail.gif";
 
 function Contact() {
+
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -29,6 +30,7 @@ function Contact() {
       );
   };
 
+
   return (
     <div className="contact_container">
       <h1>Reach Me</h1>
@@ -37,7 +39,7 @@ function Contact() {
         <div className="form_container">
           <form ref={form} onSubmit={handleSubmit}>
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input type="text" name="user_name" autoFocus />
             <label>Email</label>
             <input type="email" name="user_email" />
             <label>Message</label>
