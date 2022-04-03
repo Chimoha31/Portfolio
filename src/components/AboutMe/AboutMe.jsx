@@ -38,7 +38,7 @@ function AboutMe() {
                 <h5 className="vertical-timeline-element-subtitle">
                   {element.location}
                 </h5>
-                <p className="discription">{element.description}</p>
+                <p className="description">{element.description}</p>
               </VerticalTimelineElement>
             );
           })}
