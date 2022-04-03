@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 85%;
 }
 
 .introduce {
@@ -75,13 +76,14 @@
   }
   .introduce_container .image {
     position: absolute;
-    left: 50%;
-    bottom: 40%;
+    left: 55%;
+    bottom: 30%;
     z-index: 900;
   }
-
+  
   .introduce_container img {
     margin-left: 50px;
+    border-radius: 10px;
   }
 }
 

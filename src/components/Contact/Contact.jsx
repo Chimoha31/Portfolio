@@ -51,7 +51,7 @@ function Contact() {
             <input type="email" name="user_email" />
             <label>Message</label>
             <textarea name="message" />
-            <input type="submit" value="Send" />
+            <input type="submit" value="Send" className="submit_btn" />
           </form>
         </div>
       </div>
