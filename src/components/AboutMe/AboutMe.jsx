@@ -18,7 +18,7 @@ function AboutMe() {
     <div className="timeline_container">
       <div className="title">
         <h1>Education</h1>
-        <h1>Experience</h1>
+        <h1>Experience Test</h1>
       </div>
       <div className="timeline_container">
         <VerticalTimeline>
