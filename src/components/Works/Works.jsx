@@ -17,10 +17,10 @@ function Works() {
             ))}
           </div>
           <div className="button">
-            <a href="#" className="github">
+            <a href={project.github} className="github">
               github
             </a>
-            <a href="#" className="app">
+            <a href={project.app} className="app">
               App
             </a>
           </div>

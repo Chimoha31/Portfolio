@@ -25,8 +25,10 @@ let projectsElements = [
     image: recipe_app,
     title: "Ezy Pzy Recipe",
     description:
-      "This is a foods recipe application for who don't know the ingredients for meals or how to make",
+      "This is a foods recipe application by using API for who want to know the ingredients for meals or how to make",
     technology: [css, jquery, react, materialui, netlify, git, github],
+    github: "https://github.com/Chimoha31/Recipe.git",
+    app: "https://ezypzy-recipe.netlify.app",
   },
   {
     id: 2,
