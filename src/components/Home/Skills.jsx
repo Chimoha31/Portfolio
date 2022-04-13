@@ -4,6 +4,7 @@ import html from '../../images/html.png';
 import css from '../../images/css.png';
 import sass from '../../images/sass.png';
 import js from '../../images/js.png';
+import jquery from '../../images/jquery.png';
 import react from '../../images/react.png';
 import typescript from '../../images/typescript.png';
 import materialui from '../../images/materialui.png';
@@ -26,6 +27,7 @@ function Skills() {
         <li><img src={css} alt="css icon"/></li>
         <li><img src={sass} alt="sass icon"/></li>
         <li><img src={js} alt="js icon"/></li>
+        <li><img src={jquery} alt="jquery icon"/></li>
         <li><img src={react} alt="react icon"/></li>
         <li><img src={typescript} alt="typescript icon"/></li>
         <li><img src={materialui} alt="materialui icon"/></li>

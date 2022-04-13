@@ -6,8 +6,9 @@ import github from "../../gif/github.gif";
 import cellphone from "../../gif/cellphone.gif";
 import gmail from "../../gif/gmail.gif";
 
-function Contact() {
+// const {REACT_APP_MY_SERVICE_ID, REACT_APP_MY_TEMPLETE_ID, REACT_APP_MY_USER_ID} = process.env;
 
+function Contact() {
   const form = useRef();
 
   const handleSubmit = (e) => {
