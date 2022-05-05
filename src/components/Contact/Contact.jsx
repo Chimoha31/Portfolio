@@ -6,7 +6,7 @@ import github from "../../gif/github.gif";
 import cellphone from "../../gif/cellphone.gif";
 import gmail from "../../gif/gmail.gif";
 
-// const {REACT_APP_MY_SERVICE_ID, REACT_APP_MY_TEMPLETE_ID, REACT_APP_MY_USER_ID} = process.env;
+const {REACT_APP_MY_SERVICE_ID, REACT_APP_MY_TEMPLETE_ID, REACT_APP_MY_USER_ID} = process.env;
 
 function Contact() {
   const form = useRef();
@@ -16,10 +16,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        `${REACT_APP_MY_SERVICE_ID}`,
+        `${REACT_APP_MY_TEMPLETE_ID}`,
         form.current,
-        "YOUR_USER_ID"
+        `${REACT_APP_MY_USER_ID}`
       )
       .then(
         (result) => {
