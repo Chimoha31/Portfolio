@@ -1,5 +1,5 @@
 import React from "react";
-import './AboutMe.css';
+import "./AboutMe.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,8 +11,8 @@ import timelineElements from "../../timelineElements";
 import "react-vertical-timeline-component/style.min.css";
 
 function AboutMe() {
-  let workIconStyles = { background: "skyblue" };
-  let schoolIconStyles = { background: "orange" };
+  let workIconStyles = { background: "#EEE8AA" };
+  let schoolIconStyles = { background: "#FFE4E1" };
 
   return (
     <div className="timeline_container">
@@ -35,10 +35,11 @@ function AboutMe() {
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
                 </h3>
-                <h5 className="vertical-timeline-element-subtitle">
+                <p className="vertical-timeline-element-subtitle">
                   {element.location}
-                </h5>
-                <p className="description">{element.description}</p>
+                </p>
+                <h5 className="description">【 {element.description} 】</h5>
+                <p>{element.contents}</p>
               </VerticalTimelineElement>
             );
           })}
