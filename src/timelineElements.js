@@ -36,7 +36,7 @@ let timelineElements = [
       "• Tracking shipments and responding to customers due to schedule delays.",
       "• Request customs clearance for shipping companies to arrange for import into Japan",
       "• Arrangement for inspection of cargo.",
-     " • Translate Hay's growth information sent from the exporter into Japanese and send it to customers.",
+      " • Translate Hay's growth information sent from the exporter into Japanese and send it to customers.",
       "• During the harvest season of Hay, take customers to farmers in Washington in the USA, Alberta in Canada, and Australia which are the main import destinations to let customers ask questions directly to importers.",
       "• Assistant to business negotiations when the importer comes to Japan.",
     ],
@@ -63,7 +63,7 @@ let timelineElements = [
     contents: [
       "• Expanded understanding of different cultures and communication skills by studying abroad",
       " • Acquired English skills through practical lessons",
-      " • The goal of the major is to think about a better future for Japan and the world"
+      " • The goal of the major is to think about a better future for Japan and the world",
     ],
     description: "Bachelor's degree in International relations",
     date: "April 2010 - March 2014",
