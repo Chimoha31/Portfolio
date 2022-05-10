@@ -1,9 +1,9 @@
 import React from "react";
 import AnimationTitle from "./AnimationTitle";
-import Introduce from './Introduce';
-import BriefAboutMe from './BriefAboutMe';
-import BriefWorks from './BriefWorks';
-import './Home.css';
+import Introduce from "./Introduce";
+import BriefAboutMe from "./BriefAboutMe";
+import BriefWorks from "./BriefWorks";
+import "./Home.css";
 
 function Home() {
   return (
@@ -15,6 +15,5 @@ function Home() {
     </div>
   );
 }
-
 
 export default Home;

@@ -10,7 +10,6 @@ function Works() {
           <img src={project.image} className="card_pic" alt="card" />
           <h2 className="card_title">{project.title}</h2>
           <p className="card_description">{project.description}</p>
-          <h5>-Techonologies-</h5>
           <div className="tech_icons">
             <div className="tech_lang">
               {project.technology.map((tech, index) => (

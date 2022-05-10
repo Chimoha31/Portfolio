@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 .works_container {
   position: relative;
   height: auto;
@@ -5,6 +7,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.works_container p {
+  font-family: 'Fredoka', sans-serif;
 }
 
 .works_card {

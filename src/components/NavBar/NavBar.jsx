@@ -5,7 +5,6 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
-
       <button
         className="navbar-toggler"
         type="button"
@@ -18,7 +17,6 @@ function NavBar() {
         <i className="fas fa-bars text-white"></i>
       </button>
 
-      {/* ul */}
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <div className="hori-selector">
@@ -26,28 +24,27 @@ function NavBar() {
             <div className="right"></div>
           </div>
 
-     {/* <Link>に直すこと */}
           <li className="nav-item active">
             <Link className="nav-link" to="/">
-            <i className="fas fa-home"></i>
+              <i className="fas fa-home"></i>
               Home
             </Link>
           </li>
           <li className="nav-item active">
             <Link to="/aboutme" className="nav-link">
-            <i className="fas fa-smile"></i>
+              <i className="fas fa-smile"></i>
               About Me
             </Link>
           </li>
           <li className="nav-item active">
             <Link to="/works" className="nav-link">
-            <i className="fab fa-react"></i>
+              <i className="fab fa-react"></i>
               Works
             </Link>
           </li>
           <li className="nav-item active">
             <Link to="/contact" className="nav-link">
-            <i className="fas fa-mail-bulk"></i>
+              <i className="fas fa-mail-bulk"></i>
               Contact
             </Link>
           </li>

@@ -1,8 +1,8 @@
-import weatherApp from "./images/weatherApp.png";
 import recipe_app from "./projectsImage/recipe_app.png";
 import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
 import qrcode_generator from './projectsImage/qrcode_generator.png';
 import anime_database_app from "./projectsImage/anime_database_app.png";
+import coming_soon from "./projectsImage/coming_soon.jpg";
 
 let projectsElements = [
   {
@@ -39,7 +39,7 @@ let projectsElements = [
     image: anime_database_app,
     title: "Anime Database",
     description:
-      "This is an Anime Database application. You can see top, airing, upcoming, o.v.a anime in Japan. Also, you can search anime what you want to know the anime series. Moreover, you can put your favorite anime in your list",
+      "(Currently I'm working on it) This is an Anime Database application. You can see top, airing, upcoming, o.v.a anime in Japan. Also, you can search anime what you want to know the anime series. Moreover, you can put your favorite anime in your list",
     technology: [
       "css",
       "bootstrap",
@@ -53,19 +53,19 @@ let projectsElements = [
   },
   {
     id: 5,
-    image: weatherApp,
-    title: "Title 5",
+    image: coming_soon,
+    title: "",
     description:
-      "This is App description. Lorem ipsum dolor sit amet consectetur",
-    technology: ["sass", "react", "vercel"],
+      "",
+    technology: [],
   },
   {
     id: 6,
-    image: weatherApp,
-    title: "Title 6",
+    image: coming_soon,
+    title: "",
     description:
-      "This is App description. Lorem ipsum dolor sit amet consectetur",
-    technology: ["sass", "react", "vercel"],
+      "",
+    technology: [],
   },
 ];
 
