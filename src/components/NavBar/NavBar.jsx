@@ -31,12 +31,6 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item active">
-            <Link to="/aboutme" className="nav-link">
-              <i className="fas fa-smile"></i>
-              About Me
-            </Link>
-          </li>
-          <li className="nav-item active">
             <Link to="/works" className="nav-link">
               <i className="fab fa-react"></i>
               Works

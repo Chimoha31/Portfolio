@@ -34,19 +34,20 @@
 }
 
 .container p {
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
 
-.aboutme_btn {
+.contact_btn {
   margin: 30px 0;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
-.aboutme_btn {
+.contact_btn {
   position:relative;
   font-family: "Courier New", Courier, monospace;
   color: #fff;
@@ -59,14 +60,14 @@
   margin-top: 50px;
 }
 
-.aboutme_btn:hover {
+.contact_btn:hover {
   background: rgba(116, 226, 12, 0.897);
   color: #000;
   border-color: transparent;
 }
 
-.aboutme_btn::before,
-.aboutme_btn::after {
+.contact_btn::before,
+.contact_btn::after {
   content: "";
   position: absolute;
   border: solid rgb(218, 196, 3);
@@ -75,20 +76,20 @@
   transition: all 0.3s ease-in-out;
 }
 
-.aboutme_btn::before {
+.contact_btn::before {
   top: -6px;
   left: -6px;
   border-width: 1px 0 0 1px;
 }
 
-.aboutme_btn::after {
+.contact_btn::after {
   bottom: -6px;
   right: -6px;
   border-width: 0 1px 1px 0;
 }
 
-.aboutme_btn:hover::before,
-.aboutme_btn:hover::after {
+.contact_btn:hover::before,
+.contact_btn:hover::after {
   width: calc(100% + 11px);
   height: calc(100% + 11px);
   border-color: rgb(214, 211, 15);
@@ -96,12 +97,12 @@
 
 @media (min-width: 767px) {
   .container p {
-    width: 60%;
+    width: 90%;
   }
 }
 @media (min-width: 1025px) {
   .container p {
-    width: 50%;
+    width: 90%;
   }
 }
 

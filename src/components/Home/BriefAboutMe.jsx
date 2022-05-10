@@ -18,13 +18,12 @@ function BriefAboutMe() {
             applications. I love to create websites that put smiles on people's
             faces. I always think of helping people's daily life with my work.
             I'm a hard worker who possesses a passion for web development by
-            combining all of my knowledge and skills. Below is a timeline of
-            my education and work experience.
+            combining all of my knowledge and skills. Thank you for your time and consideration.
           </p>
         </li>
         <li>
-          <Link to="/aboutme" className="aboutme_btn">
-            Detail
+          <Link to="/contact" className="contact_btn">
+            Contact
           </Link>
         </li>
       </ul>
