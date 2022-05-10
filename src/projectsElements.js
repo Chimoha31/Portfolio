@@ -1,6 +1,7 @@
 import weatherApp from "./images/weatherApp.png";
 import recipe_app from "./projectsImage/recipe_app.png";
 import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
+import qrcode_generator from './projectsImage/qrcode_generator.png';
 import anime_database_app from "./projectsImage/anime_database_app.png";
 
 let projectsElements = [
@@ -25,6 +26,16 @@ let projectsElements = [
   },
   {
     id: 3,
+    image: qrcode_generator,
+    title: "QrCode Generator",
+    description:
+    "This is a QrCode Generator App.",
+    technology: ["tailwind", "css", "react", "vercel"],
+    github: "https://github.com/Chimoha31/QrCode_Generator.git",
+    app: "https://qrcode-generator-forfree.vercel.app/"
+  },
+  {
+    id: 4,
     image: anime_database_app,
     title: "Anime Database",
     description:
@@ -39,14 +50,6 @@ let projectsElements = [
     ],
     github: "https://github.com/Chimoha31/Anime_data.git",
     app: "",
-  },
-  {
-    id: 4,
-    image: weatherApp,
-    title: "Title 4",
-    description:
-      "This is App description. Lorem ipsum dolor sit amet consectetur",
-    technology: ["sass", "react", "vercel"],
   },
   {
     id: 5,
