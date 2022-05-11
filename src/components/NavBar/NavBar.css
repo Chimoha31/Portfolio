@@ -27,6 +27,7 @@ i {
 }
 #navbarSupportedContent li {
   list-style: none;
+  cursor: pointer; 
 }
 
 #navbarSupportedContent ul li a {
@@ -38,6 +39,11 @@ i {
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0.69, -0.55, 0.265, 1.55);
   position: relative;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
 }
 
 

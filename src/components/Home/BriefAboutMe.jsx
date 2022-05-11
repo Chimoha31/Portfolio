@@ -1,6 +1,5 @@
 import React from "react";
 import "./BriefAboutMe.css";
-import { Link } from "react-router-dom";
 
 function BriefAboutMe() {
   return (
@@ -22,9 +21,10 @@ function BriefAboutMe() {
           </p>
         </li>
         <li>
-          <Link to="/contact" className="contact_btn">
-            Contact
-          </Link>
+          <a href="Chiho_Resume.pdf" download="Resume_ChihoMaekawa" className="contact_btn">
+          <i className="fas fa-download"></i>
+            Resume
+          </a>
         </li>
       </ul>
     </div>

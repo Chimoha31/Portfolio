@@ -22,10 +22,13 @@ function BriefWorks() {
         <li>
           <Skills />
         </li>
-        <li className="btn_p"><p>↓ See my projects from the below button ↓</p></li>
+        <li className="btn_p">
+          <p>↓ See my projects from the below button ↓</p>
+        </li>
         <li className="work_detail">
           <Link to="/works" className="works_btn">
-            Project
+          <i className="fab fa-react"></i>
+            Projects
           </Link>
         </li>
       </ul>

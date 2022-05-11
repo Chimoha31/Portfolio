@@ -66,8 +66,8 @@
 }
 
 .works_btn:hover {
-  background: rgb(58, 240, 155);
-  color: #000;
+  background: rgb(218, 129, 56);
+  color: rgb(245, 241, 241);
   border-color: transparent;
 }
 
@@ -75,7 +75,7 @@
 .works_btn::after {
   content: "";
   position: absolute;
-  border: solid rgb(51, 31, 235);
+  border: solid rgb(235, 31, 31);
   width: 10px;
   height: 10px;
   transition: all 0.3s ease-in-out;
@@ -97,7 +97,7 @@
 .works_btn:hover::after {
   width: calc(100% + 11px);
   height: calc(100% + 11px);
-  border-color:rgb(51, 31, 235);
+  border-color: rgb(235, 31, 31);
 }
 
 @media (min-width: 767px) {
