@@ -1,7 +1,6 @@
 import React from "react";
-import chiho from "../../images/chiho.JPG";
-import './Introduce.css';
-import Scroll from '../parts/Scroll';
+import "./Introduce.css";
+import Scroll from "../parts/Scroll";
 
 function Introduce() {
   return (
@@ -11,12 +10,9 @@ function Introduce() {
         <h1>Chiho Maekawa</h1>
         <p>Front-End-Developer</p>
       </div>
-      <div className="image">
-        <img src={chiho} alt="Chiho" />
+      <div>
+        <Scroll />
       </div>
-     <div>
-      <Scroll />
-     </div>
     </div>
   );
 }

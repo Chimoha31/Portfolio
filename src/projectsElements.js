@@ -1,6 +1,7 @@
 import recipe_app from "./projectsImage/recipe_app.png";
 import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
 import qrcode_generator from './projectsImage/qrcode_generator.png';
+import mern from './projectsImage/mern.png';
 import anime_database_app from "./projectsImage/anime_database_app.png";
 import coming_soon from "./projectsImage/coming_soon.jpg";
 
@@ -36,6 +37,15 @@ let projectsElements = [
   },
   {
     id: 4,
+    image: mern,
+    title: "CRUD - Remote/In person Management ",
+    description: "(Currently I'm working on MERN stack app)",
+    technology: ["react", "nodejs", "express", "mongdb", "bootstrap"],
+    github: "",
+    app: "",
+  },
+  {
+    id: 5,
     image: anime_database_app,
     title: "Anime Database",
     description:
@@ -50,14 +60,6 @@ let projectsElements = [
     ],
     github: "https://github.com/Chimoha31/Anime_data.git",
     app: "",
-  },
-  {
-    id: 5,
-    image: coming_soon,
-    title: "",
-    description:
-      "",
-    technology: [],
   },
   {
     id: 6,
