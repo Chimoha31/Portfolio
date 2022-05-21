@@ -3,6 +3,7 @@ import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
 import qrcode_generator from './projectsImage/qrcode_generator.png';
 import mern from './projectsImage/mern.png';
 import anime_database_app from "./projectsImage/anime_database_app.png";
+import portfolio_chiho from "./projectsImage/portfolio_chiho.png";
 import coming_soon from "./projectsImage/coming_soon.jpg";
 
 let projectsElements = [
@@ -11,7 +12,7 @@ let projectsElements = [
     image: recipe_app,
     title: "Ezy Pzy Recipe",
     description:
-      "This is a foods recipe application by using API for who want to know the ingredients for meals or how to make",
+      "This is a foods recipe application by using API for who want to know the ingredients for meals or how to make.",
     technology: ["css", "jquery", "react", "materialui", "netlify"],
     github: "https://github.com/Chimoha31/Recipe.git",
     app: "https://ezypzy-recipe.netlify.app",
@@ -20,7 +21,7 @@ let projectsElements = [
     id: 2,
     image: rock_paper_scissors,
     title: "Rock Paper Scissors",
-    description: "This is a game App for fun, ROCK PAPER SCISSORS",
+    description: "This is a game App for fun, ROCK PAPER SCISSORS.",
     technology: ["sass", "react", "vercel"],
     github: "https://github.com/Chimoha31/Rock_Paper_Scissors.git",
     app: "https://rock-paper-scissors-fungame.vercel.app/",
@@ -49,7 +50,7 @@ let projectsElements = [
     image: anime_database_app,
     title: "Anime Database",
     description:
-      "(Currently I'm working on it) This is an Anime Database application. You can see top, airing, upcoming, o.v.a anime in Japan. Also, you can search anime what you want to know the anime series. Moreover, you can put your favorite anime in your list",
+      "(Currently I'm working on it) This is an Anime Database application. You can see top, airing, upcoming, o.v.a anime in Japan. Also, you can search anime what you want to know the anime series. Moreover, you can put your favorite anime in your list.",
     technology: [
       "css",
       "bootstrap",
@@ -63,6 +64,32 @@ let projectsElements = [
   },
   {
     id: 6,
+    image: portfolio_chiho,
+    title: "Portfolio",
+    description:
+      "This is my portfolio",
+    technology: ["react", "jquery", "emailjs", "material-icons" ],
+    github: "https://github.com/Chimoha31/Portfolio.git",
+    app: "https://portfolio-chiho.vercel.app/",
+  },
+  {
+    id: 7,
+    image: coming_soon,
+    title: "",
+    description:
+      "",
+    technology: [],
+  },
+  {
+    id: 8,
+    image: coming_soon,
+    title: "",
+    description:
+      "",
+    technology: [],
+  },
+  {
+    id: 9,
     image: coming_soon,
     title: "",
     description:
