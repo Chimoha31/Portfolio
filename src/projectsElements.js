@@ -39,10 +39,10 @@ let projectsElements = [
   {
     id: 4,
     image: mern,
-    title: "CRUD - Remote/In person Management ",
-    description: "(Currently I'm working on MERN stack app)",
-    technology: ["react", "nodejs", "express", "mongdb", "bootstrap"],
-    github: "",
+    title: "CRUD - Students Management List ",
+    description: "It is an application for managing the personal information of students. Also, I implemented login and sign in by using firebase",
+    technology: ["react", "nodejs", "express", "MongoDB", "tailwind", "firebase"],
+    github: "https://github.com/Chimoha31/MERN_Student_Card.git",
     app: "",
   },
   {
