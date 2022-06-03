@@ -41,9 +41,9 @@ let projectsElements = [
     image: mern,
     title: "CRUD - Students Management List ",
     description: "It is an application for managing the personal information of students. Also, I implemented login and sign in by using firebase",
-    technology: ["react", "nodejs", "express", "MongoDB", "tailwind", "firebase"],
+    technology: ["tailwind", "react", "nodejs", "express", "MongoDB", "firebase", "netlify"],
     github: "https://github.com/Chimoha31/MERN_Student_Card.git",
-    app: "",
+    app: "https://students-management-list.netlify.app/",
   },
   {
     id: 5,
