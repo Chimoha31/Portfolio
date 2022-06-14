@@ -1,7 +1,8 @@
+import chat from './projectsImage/chat.png';
 import recipe_app from "./projectsImage/recipe_app.png";
-import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
 import qrcode_generator from './projectsImage/qrcode_generator.png';
 import mern from './projectsImage/mern.png';
+import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
 import anime_database_app from "./projectsImage/anime_database_app.png";
 import portfolio_chiho from "./projectsImage/portfolio_chiho.png";
 import coming_soon from "./projectsImage/coming_soon.jpg";
@@ -9,25 +10,45 @@ import coming_soon from "./projectsImage/coming_soon.jpg";
 let projectsElements = [
   {
     id: 1,
+    image: portfolio_chiho,
+    title: "Portfolio",
+    description:
+      "This is my portfolio.",
+    technology: ["react", "jquery", "emailjs", "material-icons", "vercel" ],
+    github: "https://github.com/Chimoha31/Portfolio.git",
+    app: "https://portfolio-chiho.vercel.app/",
+  },
+  {
+    id: 2,
+    image: chat,
+    title: "Realtime Chat App",
+    description:
+      "This is a chat application. ①Set your name, ②choose a same room number with your friend or coworker to talk in the chat room.",
+    technology: ["bootstrap", "react", "socket.io", "express", "heroku"],
+    github: "https://github.com/Chimoha31/Chat_socket.io.git",
+    app: "https://chihochat-app.herokuapp.com/"
+  },
+  {
+    id: 3,
     image: recipe_app,
     title: "Ezy Pzy Recipe",
     description:
-      "This is a foods recipe application by using API for who want to know the ingredients for meals or how to make.",
+    "This is a foods recipe application by using API for who want to know the ingredients for meals or how to make.",
     technology: ["css", "jquery", "react", "materialui", "netlify"],
     github: "https://github.com/Chimoha31/Recipe.git",
     app: "https://ezypzy-recipe.netlify.app",
   },
   {
-    id: 2,
+    id: 4,
     image: rock_paper_scissors,
     title: "Rock Paper Scissors",
-    description: "This is a game App for fun, ROCK PAPER SCISSORS.",
+    description: "This is a game App for fun, ROCK PAPER SCISSORS. 5 points match.",
     technology: ["sass", "react", "vercel"],
     github: "https://github.com/Chimoha31/Rock_Paper_Scissors.git",
     app: "https://rock-paper-scissors-fungame.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     image: qrcode_generator,
     title: "QrCode Generator",
     description:
@@ -37,7 +58,7 @@ let projectsElements = [
     app: "https://qrcode-generator-forfree.vercel.app/"
   },
   {
-    id: 4,
+    id: 6,
     image: mern,
     title: "CRUD - Students Management List ",
     description: "It is an application for managing students personal information for school. Also, I implemented login and sign in by using firebase",
@@ -46,7 +67,7 @@ let projectsElements = [
     app: "https://students-management-list.netlify.app/",
   },
   {
-    id: 5,
+    id: 7,
     image: anime_database_app,
     title: "Anime Database",
     description:
@@ -61,24 +82,6 @@ let projectsElements = [
     ],
     github: "https://github.com/Chimoha31/Anime_data.git",
     app: "",
-  },
-  {
-    id: 6,
-    image: portfolio_chiho,
-    title: "Portfolio",
-    description:
-      "This is my portfolio",
-    technology: ["react", "jquery", "emailjs", "material-icons" ],
-    github: "https://github.com/Chimoha31/Portfolio.git",
-    app: "https://portfolio-chiho.vercel.app/",
-  },
-  {
-    id: 7,
-    image: coming_soon,
-    title: "",
-    description:
-      "",
-    technology: [],
   },
   {
     id: 8,
