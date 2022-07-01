@@ -22,10 +22,10 @@ let projectsElements = [
     id: 2,
     image: hotel_booking,
     title: "Hotel Booking Website",
-    description: "Currently working on it. (Group Project)",
-    technology: ["bootstrap", "react", "node.js", "express", "MongoDB", "firebase"],
+    description: "This is an application for booking a hotel. To see all customer booking lists on admin side, log in with test@test.com for email, 111111 for password.",
+    technology: ["bootstrap", "react", "node.js", "express", "MongoDB", "firebase", "Heroku"],
     github: "https://github.com/Chimoha31/Ciccc_FinalProject",
-    app: "",
+    app: "https://bookinghotel01.herokuapp.com/",
   },
   {
     id: 3,
