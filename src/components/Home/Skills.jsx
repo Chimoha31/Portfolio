@@ -16,6 +16,7 @@ import firebase from '../../images/firebase.png';
 import vercel from '../../images/vercel.png';
 import heroku from '../../images/heroku.png';
 import netlify from '../../images/netlify.png';
+import figma from '../../images/figma.png';
 import git from '../../images/git.png';
 import github from '../../images/github.png';
 
@@ -39,6 +40,7 @@ function Skills() {
         <li><img src={vercel} alt="vercel icon" className="vercel_icon"/></li>
         <li><img src={heroku} alt="heroku icon"/></li>
         <li><img src={netlify} alt="netlify icon"/></li>
+        <li><img src={figma} alt="figma icon"/></li>
         <li><img src={git} alt="git icon"/></li>
         <li><img src={github} alt="github icon"/></li>
       </ul>
