@@ -3,9 +3,12 @@ import "./Skills.css";
 import html from '../../images/html.png';
 import css from '../../images/css.png';
 import sass from '../../images/sass.png';
+import bootstrap from '../../images/bootstrap.png';
+import tailwind from '../../images/tailwind.png';
 import js from '../../images/js.png';
 import jquery from '../../images/jquery.png';
 import react from '../../images/react.png';
+import redux from '../../images/redux.png';
 import typescript from '../../images/typescript.png';
 import materialui from '../../images/materialui.png';
 import nodejs from '../../images/nodejs.png';
@@ -27,9 +30,12 @@ function Skills() {
         <li><img src={html} alt="html icon"/></li>
         <li><img src={css} alt="css icon"/></li>
         <li><img src={sass} alt="sass icon"/></li>
+        <li><img src={bootstrap} alt="bootstrap icon"/></li>
+        <li><img src={tailwind} alt="tailwind icon"/></li>
         <li><img src={js} alt="js icon"/></li>
         <li><img src={jquery} alt="jquery icon"/></li>
         <li><img src={react} alt="react icon"/></li>
+        <li><img src={redux} alt="redux icon"/></li>
         <li><img src={typescript} alt="typescript icon"/></li>
         <li><img src={materialui} alt="materialui icon"/></li>
         <li><img src={nodejs} alt="nodejs icon"/></li>
