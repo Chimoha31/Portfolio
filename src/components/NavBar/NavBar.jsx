@@ -18,10 +18,6 @@ function NavBar() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        {/* <div className="hori-selector">
-            <div className="left"></div>
-            <div className="right"></div>
-          </div> */}
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <Link className="nav-link" to="/">
@@ -42,7 +38,7 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item active nav-link">
-            <a href="Chiho_Resume.pdf" download="Resume_ChihoMaekawa">
+            <a href="Chiho-Resume.pdf" download="Resume_ChihoMaekawa">
               <i className="fas fa-download"></i>Resume
             </a>
           </li>
