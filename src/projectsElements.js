@@ -35,7 +35,7 @@ let projectsElements = [
       "This is a chat application. ①Set your name, ②choose a same room number with your friend or coworker to talk in the chat room.",
     technology: ["bootstrap", "react", "socket.io", "express", "heroku"],
     github: "https://github.com/Chimoha31/Chat_socket.io.git",
-    app: "https://chihochat-app.herokuapp.com/",
+    app: "https://chat-application001.herokuapp.com/",
   },
   {
     id: 4,
