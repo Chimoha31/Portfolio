@@ -1,3 +1,4 @@
+import cutory from "./projectsImage/CUTORY.png";
 import hotel_booking from "./projectsImage/hotel_booking.png";
 import chat from "./projectsImage/chat.png";
 import recipe_app from "./projectsImage/recipe_app.png";
@@ -6,7 +7,6 @@ import mern from "./projectsImage/mern.png";
 import rock_paper_scissors from "./projectsImage/rock_paper_scissors.png";
 import anime_database_app from "./projectsImage/anime_database_app.png";
 import portfolio_chiho from "./projectsImage/portfolio_chiho.png";
-import coming_soon from "./projectsImage/coming_soon.jpg";
 
 let projectsElements = [
   {
@@ -20,6 +20,15 @@ let projectsElements = [
   },
   {
     id: 2,
+    image: cutory,
+    title: "Clothing E-Commerce Website",
+    description: "(Currently I'm working on it)",
+    technology: ["bootstrap", "figma", "react", "redux-toolkit", "node.js", "express", "MySql", "stripe", "heroku"],
+    github: "https://github.com/Chimoha31/cutory.git",
+    app: "",
+  },
+  {
+    id: 3,
     image: hotel_booking,
     title: "Hotel Booking Website",
     description: "This is an application for booking a hotel. To see all customer booking lists on admin side, log in with test@test.com for email, 111111 for password.",
@@ -28,7 +37,7 @@ let projectsElements = [
     app: "https://bookinghotel01.herokuapp.com/",
   },
   {
-    id: 3,
+    id: 4,
     image: chat,
     title: "Realtime Chat App",
     description:
@@ -38,7 +47,7 @@ let projectsElements = [
     app: "https://chat-application001.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 5,
     image: recipe_app,
     title: "Ezy Pzy Recipe",
     description:
@@ -48,7 +57,7 @@ let projectsElements = [
     app: "https://ezypzy-recipe.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     image: rock_paper_scissors,
     title: "Rock Paper Scissors",
     description:
@@ -58,7 +67,7 @@ let projectsElements = [
     app: "https://rock-paper-scissors-fungame.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: qrcode_generator,
     title: "QrCode Generator",
     description: "This is a QrCode Generator App.",
@@ -67,7 +76,7 @@ let projectsElements = [
     app: "https://qrcode-generator-forfree.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     image: mern,
     title: "CRUD - Students Management List ",
     description:
@@ -85,7 +94,7 @@ let projectsElements = [
     app: "https://students-management-list.herokuapp.com/",
   },
   {
-    id: 8,
+    id: 9,
     image: anime_database_app,
     title: "Anime Database",
     description:
@@ -100,13 +109,6 @@ let projectsElements = [
     ],
     github: "https://github.com/Chimoha31/Anime_data.git",
     app: "",
-  },
-  {
-    id: 9,
-    image: coming_soon,
-    title: "",
-    description: "",
-    technology: [],
   },
 ];
 
