@@ -24,7 +24,7 @@ let projectsElements = [
     title: "Clothing E-Commerce Website",
     description: "(Currently I'm working on it)",
     technology: ["bootstrap", "figma", "react", "redux-toolkit", "node.js", "express", "MySql", "stripe", "heroku"],
-    github: "https://github.com/Chimoha31/cutory.git",
+    github: "https://github.com/Chimoha31/cutory",
     app: "",
   },
   {
