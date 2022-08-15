@@ -22,10 +22,10 @@ let projectsElements = [
     id: 2,
     image: cutory,
     title: "Clothing E-Commerce Website",
-    description: "(Currently I'm working on it)",
+    description: "This is an application for clothing E-Commerce.",
     technology: ["bootstrap", "figma", "react", "redux-toolkit", "node.js", "express", "MySql", "stripe", "heroku"],
     github: "https://github.com/Chimoha31/cutory",
-    app: "",
+    app: "https://cutory-client.herokuapp.com/",
   },
   {
     id: 3,
