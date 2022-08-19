@@ -38,7 +38,7 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item active nav-link">
-            <a href="Chiho-Resume.pdf" download="Resume_ChihoMaekawa">
+            <a href="Resume.pdf" download="Resume">
               <i className="fas fa-download"></i>Resume
             </a>
           </li>

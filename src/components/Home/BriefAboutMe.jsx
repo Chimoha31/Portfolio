@@ -27,8 +27,8 @@ function BriefAboutMe() {
         </li>
         <li>
           <a
-            href="Chiho-Resume.pdf"
-            download="Resume_ChihoMaekawa"
+            href="Resume.pdf"
+            download="Resume"
             className="contact_btn"
           >
             <i className="fas fa-download"></i>
