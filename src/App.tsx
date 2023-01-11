@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import * as THREE from "three";
 
 const App = () => {
-  return (
-    <div>
-      App
-    </div>
-  )
-}
+  return <div>App</div>;
+};
 
-export default App
+export default App;
