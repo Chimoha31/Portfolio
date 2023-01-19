@@ -1,11 +1,10 @@
-import { useEffect, } from "react";
+import { useEffect } from "react";
 import "./Example.css";
 import * as THREE from "three";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const Example = () => {
-  
   let model: THREE.Group;
 
   useEffect(() => {
@@ -24,7 +23,7 @@ const Example = () => {
       10,
       2000
     );
-    camera.position.set(-20, 9, 25);
+    camera.position.set(0, 19, 25);
 
     const renderer = new THREE.WebGLRenderer({
       canvas: canvas,
@@ -45,9 +44,7 @@ const Example = () => {
     let mixer: THREE.AnimationMixer;
     gltfLoader.load("./models/animation.gltf", (gltf) => {
       model = gltf.scene;
-      // model.scale.set(0.14, 0.14, 0.14);
-      model.scale.set(9.14, 9.14, 9.14);
-      // model.rotation.y = -Math.PI / 4;
+      model.scale.set(5.14, 5.14, 5.14);
       model.rotation.y = -Math.PI / 3;
       // model.rotation.x = Math.PI / 6;
       scene.add(model);
@@ -95,9 +92,6 @@ const Example = () => {
     const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
     scene.add(directionalLight);
 
-    // const pointLight = new THREE.PointLight(0xffffff, 2);
-    // pointLight.position.set(-1, 1, 1);
-    // scene.add(pointLight);
 
     // ブラウザのリサイズ処理
     window.addEventListener("resize", () => {
@@ -120,6 +114,6 @@ const Example = () => {
       </div>
     </>
   );
-}
+};
 
-export default Example
+export default Example;
