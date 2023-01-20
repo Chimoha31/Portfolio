@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Typewriter from "typewriter-effect";
-import Example from "./Example";
+// import Example from "../Example";
 
 const Hero = () => {
   return (

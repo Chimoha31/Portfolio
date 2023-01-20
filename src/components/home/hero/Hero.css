@@ -11,7 +11,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient( #2d2e2eed,  #2d2e2ef3), url("../../../public/images/background03.jpg") center no-repeat;
+  background: linear-gradient( #2d2e2eed,  #2d2e2ef3), url("../../../../public/images/background03.jpg") center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
