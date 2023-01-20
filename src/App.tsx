@@ -1,13 +1,13 @@
 import React from "react";
 import './App.css';
+import Pages from "./components/pages/Pages";
 // import Example from "./Example";
 
 const App = () => {
   return (
-    <div>
-      App
-      {/* <Example /> */}
-    </div>
+    <>
+      <Pages />
+    </>
   );
 };
 
