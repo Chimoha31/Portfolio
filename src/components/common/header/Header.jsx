@@ -12,11 +12,11 @@ const Header = () => {
       <header>
         <div className="container flexsb">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" data-aos="zoom-in-right"/>
           </div>
 
           {/* nav */}
-          <div className={responsive ? "hideMenu" : "nav"}>
+          <div className={responsive ? "hideMenu" : "nav"} data-aos="zoom-in-left">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>

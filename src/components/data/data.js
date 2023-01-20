@@ -5,6 +5,9 @@ import RECIPE from '../data/projectImg/recipe_app.png'
 import QR from '../data/projectImg/qrcode_generator.png'
 import GAME from '../data/projectImg/rock_paper_scissors.png'
 import ChihoPortfolio from '../data/projectImg/chiho_portfolio.png'
+import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 export const portfolio = [
   {
@@ -58,3 +61,22 @@ export const portfolio = [
     title: "Brex Logo",
   },
 ];
+
+export const contact = [
+  {
+    id: 100,
+    icon: <AddLocationAltIcon />,
+    text1: "2311 Beta Ave",
+    text2: "Burnaby, BC, Canada",
+  },
+  {
+    id:101,
+    icon: <PhoneIphoneIcon />,
+    text1: "+1(604)-785-2569",
+  },
+  {
+    id:102,
+    icon: <EmailOutlinedIcon />,
+    text1: "mokochii1108@gmail.com",
+  },
+]
