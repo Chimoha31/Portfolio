@@ -108,10 +108,6 @@ const Example = () => {
   return (
     <>
       <canvas id="canvas" className="canvas"></canvas>
-      <div className="mainContent">
-        <h3>Chiho Maekawa</h3>
-        <p>WebDeveloper</p>
-      </div>
     </>
   );
 };
