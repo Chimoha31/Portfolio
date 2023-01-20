@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import logo from "../data/images/logo.png";
+import logo from "../../data/images/logo.png";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -19,7 +19,6 @@ const Header = () => {
           <div className={responsive ? "hideMenu" : "nav"}>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/skills">Skills</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
           </div>

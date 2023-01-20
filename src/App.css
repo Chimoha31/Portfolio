@@ -69,6 +69,7 @@ button {
   background: none;
   border: 2px solid var(--primaryColor);
 }
+
 /*---------header-------------*/
 /* header {
   background-color: var(--headingColor);
@@ -149,16 +150,16 @@ section {
 } */
 
 /*---------hero-------------*/
-.heading {
+/* .heading {
   font-size: 30px;
   color: var(--primaryColor);
   font-weight: 600;
   text-align: center;
   margin-bottom: 60px;
-}
+} */
 
 /*---------about-------------*/
-.about .primaryBtn {
+/* .about .primaryBtn {
   margin-left: 20px;
 }
 .about .heading {
@@ -170,7 +171,7 @@ section {
 }
 .right {
   width: 65%;
-}
+} */
 
 /*---------about-------------*/
 .grid3 {
@@ -216,6 +217,8 @@ section {
 article {
   margin-top: 50px;
   margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
 }
 article img {
   width: 100%;
