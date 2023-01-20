@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <section className="hero">
         <div className="heroContainer">
-          <h3 data-aos='fade-right'>Hello I am </h3>
+          <h3 data-aos="fade-right">Hello I am </h3>
           <h1>
             <Typewriter
               options={{
@@ -18,8 +18,12 @@ const Hero = () => {
               }}
             />
           </h1>
-          <p data-aos='fade-left'>A Frontend Developer based in Vancouver.</p>
-          <button className="primaryBtn" data-aos='fade-up-right'>Download Resume</button>
+          <p data-aos="fade-left">A Frontend Developer based in Vancouver.</p>
+          <button className="primaryBtn" data-aos="fade-up-right">
+            <a href="Resume.pdf" download="ChihoMaekawa_Resume" style={{color: "#fff"}}>
+              Download CV
+            </a>
+          </button>
         </div>
       </section>
     </>

@@ -6,7 +6,7 @@ const Footer = () => {
       <footer>
         <i data-aos="zoom-in-left" className="fa-brands fa-github"></i>
         <i data-aos="zoom-in-left" className="fa-brands fa-linkedin"></i>
-        <p data-aos="zoom-in-righht">All Right Resceved 2018</p>
+        <p data-aos="zoom-in-righht">©2023 - Chiho Maekawa / All Rights Reserved</p>
       </footer>
     </>
   );

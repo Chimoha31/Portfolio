@@ -6,17 +6,21 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
   const [responsive, setResponsive] = useState(false);
+  console.log(responsive);
 
   return (
     <>
       <header>
         <div className="container flexsb">
           <div className="logo">
-            <img src={logo} alt="" data-aos="zoom-in-right"/>
+            <img src={logo} alt="" data-aos="zoom-in-right" />
           </div>
 
           {/* nav */}
-          <div className={responsive ? "hideMenu" : "nav"} data-aos="zoom-in-left">
+          <div
+            className={responsive ? "hideMenu" : "nav"}
+            data-aos="zoom-in-left"
+          >
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>

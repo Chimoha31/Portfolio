@@ -1,3 +1,4 @@
+// Project Image
 import CUTORY from '../data/projectImg/CUTORY.png'
 import HOTEL from '../data/projectImg/hotel_booking.png'
 import CHAT from '../data/projectImg/chat.png'
@@ -5,6 +6,8 @@ import RECIPE from '../data/projectImg/recipe_app.png'
 import QR from '../data/projectImg/qrcode_generator.png'
 import GAME from '../data/projectImg/rock_paper_scissors.png'
 import ChihoPortfolio from '../data/projectImg/chiho_portfolio.png'
+
+// Icon
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
@@ -16,6 +19,7 @@ export const portfolio = [
     name: "Brand",
     category: "fullstack",
     title: "E-Commerce",
+    url: "https://cutory-client.herokuapp.com/"
   },
   {
     id: 2,
@@ -31,6 +35,7 @@ export const portfolio = [
     name: "Brand",
     category: "fullstack",
     title: "Brex Logo",
+    url: "https://chat-application001.herokuapp.com/"
   },
   {
     id: 4,
@@ -38,6 +43,7 @@ export const portfolio = [
     name: "Brand",
     category: "frontend",
     title: "Brex Logo",
+    url: "https://ezypzy-recipe.netlify.app/"
   },
   {
     id: 5,
@@ -45,6 +51,7 @@ export const portfolio = [
     name: "Brand",
     category: "frontend",
     title: "Brex Logo",
+    url: "https://qrcode-generator-forfree.vercel.app/"
   },
   {
     id: 6,
@@ -52,6 +59,7 @@ export const portfolio = [
     name: "Brand",
     category: "frontend",
     title: "Brex Logo",
+    url: "https://rock-paper-scissors-fungame.vercel.app/"
   },
   {
     id: 7,
@@ -59,6 +67,7 @@ export const portfolio = [
     name: "Brand",
     category: "frontend",
     title: "Brex Logo",
+    url: "https://portfolio-chiho.vercel.app/"
   },
 ];
 

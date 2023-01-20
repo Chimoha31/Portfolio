@@ -24,8 +24,20 @@ const About = () => {
               combining all of my knowledge and skills. Thank you for your time
               and consideration
             </p>
-            <button>Download CV</button>
-            <button className="primaryBtn">Download CV</button>
+            <button>
+              <a href="/projects" style={{ color: "#fff" }}>
+                Projects
+              </a>
+            </button>
+            <button className="primaryBtn">
+              <a
+                href="Resume.pdf"
+                download="ChihoMaekawa_Resume"
+                style={{ color: "#fff" }}
+              >
+                Download CV
+              </a>
+            </button>
           </div>
         </div>
       </section>
