@@ -16,15 +16,19 @@ const Header = () => {
             <img src={logo} alt="" data-aos="zoom-in-right" />
           </div>
 
-          {/* nav */}
-          <div
-            className={responsive ? "hideMenu" : "nav"}
-            data-aos="zoom-in-left"
-          >
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+          <div className={responsive ? "hideMenu" : "nav"}>
+            <Link to="/" data-aos="zoom-in-left">
+              Home
+            </Link>
+            <Link to="/about" data-aos="zoom-in-left">
+              About
+            </Link>
+            <Link to="/projects" data-aos="zoom-in-left">
+              Projects
+            </Link>
+            <Link to="/contact" data-aos="zoom-in-left">
+              Contact
+            </Link>
           </div>
           <button className="toggle" onClick={() => setResponsive(!responsive)}>
             <MenuIcon className="icon"></MenuIcon>
