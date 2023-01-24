@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { portfolio } from "../../data/data";
 import Heading from "../../common/heading/Heading";
 
-const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))];
+const allCategory = [...new Set(portfolio.map((item) => item.category)), "all",];
 
 const Portfoliio = () => {
   const [list, setLists] = useState(portfolio);
@@ -48,7 +48,8 @@ const Portfoliio = () => {
                 </div>
                 <div className="">
                   <h3>{item.title}</h3>
-                  <span>{item.name}</span>
+                  <a href={item.github}>Github</a>
+                  <span> / </span>
                   <a href={item.url}>App</a>
                 </div>
               </div>

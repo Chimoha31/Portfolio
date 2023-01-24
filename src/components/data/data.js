@@ -16,7 +16,7 @@ export const portfolio = [
   {
     id: 1,
     cover: CUTORY,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/cutory",
     category: "fullstack",
     title: "E-Commerce",
     url: "https://cutory-client.herokuapp.com/"
@@ -24,7 +24,7 @@ export const portfolio = [
   {
     id: 2,
     cover: HOTEL,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/Ciccc_FinalProject",
     category: "fullstack",
     title: "Hotel Booking",
     url: "https://bookinghotel01.herokuapp.com/"
@@ -32,41 +32,41 @@ export const portfolio = [
   {
     id: 3,
     cover: CHAT,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/Chat_socket.io.git",
     category: "fullstack",
-    title: "Brex Logo",
+    title: "Realtime Chat App",
     url: "https://chat-application001.herokuapp.com/"
   },
   {
     id: 4,
     cover: RECIPE,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/Recipe.git",
     category: "frontend",
-    title: "Brex Logo",
+    title: "Search Recipe",
     url: "https://ezypzy-recipe.netlify.app/"
   },
   {
     id: 5,
     cover: QR,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/QrCode_Generator.git",
     category: "frontend",
-    title: "Brex Logo",
+    title: "QrCode Generator",
     url: "https://qrcode-generator-forfree.vercel.app/"
   },
   {
     id: 6,
     cover: GAME,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/Rock_Paper_Scissors.git",
     category: "frontend",
-    title: "Brex Logo",
+    title: "Rock Paper Scissors",
     url: "https://rock-paper-scissors-fungame.vercel.app/"
   },
   {
     id: 7,
     cover: ChihoPortfolio,
-    name: "Brand",
+    github: "https://github.com/Chimoha31/Portfolio",
     category: "frontend",
-    title: "Brex Logo",
+    title: "Portfolio",
     url: "https://portfolio-chiho.vercel.app/"
   },
 ];
