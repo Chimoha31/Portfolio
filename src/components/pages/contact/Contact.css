@@ -1,0 +1,34 @@
+.contact_container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_container .right,
+.contact_container .left {
+  padding: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.contact_container .flex input:nth-child(1) {
+  margin-right: 10px;
+}
+
+.contact_container button,
+.contact_container textarea,
+.contact_container input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}

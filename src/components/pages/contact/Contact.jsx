@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css";
 import Heading from "../../common/heading/Heading";
 import { contact } from "../../data/data";
 
@@ -6,9 +7,9 @@ const Contact = () => {
   return (
     <>
       <div className="contact">
-        <div className="container">
-          <Heading title="Keep In Touch" />
-          <div className="content flexsb">
+        <Heading title="Keep In Touch" />
+        <div className="contact_container">
+          <div className="contact_content flexsb">
             <div className="right">
               <form>
                 <div className="flex">
@@ -32,8 +33,8 @@ const Contact = () => {
             </div>
             <div className="left">
               {contact.map((item) => (
-                <div className="box" data-aos="zoom-in" key={item.id}>
-                  <i>{item.icon}</i>
+                <div className="box contact_tool" data-aos="zoom-in" key={item.id}>
+                  <span><i>{item.icon}</i></span>
                   <p>{item.text1}</p>
                   <p>{item.text2}</p>
                 </div>
