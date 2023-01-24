@@ -49,7 +49,7 @@ header a {
     flex-direction: column;
     gap: 20px;
     position: absolute;
-    top: 7vh;
+    top: 10vh;
     left: 0;
     width: 100%;
     z-index: 9999;

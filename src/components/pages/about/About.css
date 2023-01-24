@@ -1,11 +1,12 @@
 .about {
-margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .chiho_pic {
   width: 260px;
   height: 260px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .about .primaryBtn {
@@ -16,7 +17,7 @@ margin-bottom: 100px;
   text-align: left;
   margin: 0;
 }
-.left {
+.left_about {
   display: flex;
   align-items: center;
   justify-content: center;

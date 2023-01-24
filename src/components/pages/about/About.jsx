@@ -8,7 +8,7 @@ const About = () => {
     <>
       <section className="about">
         <div className="about_container flex">
-          <div className="left" data-aos="fade-down-right">
+          <div className="left_about" data-aos="fade-down-right">
             <img src={Chiho} alt="" className="chiho_pic" />
           </div>
           <div className="right" data-aos="fade-down-left">
