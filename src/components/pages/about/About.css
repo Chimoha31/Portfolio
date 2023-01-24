@@ -1,3 +1,7 @@
+.about {
+margin-bottom: 100px;
+}
+
 .chiho_pic {
   width: 260px;
   height: 260px;
@@ -13,10 +17,14 @@
   margin: 0;
 }
 .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35%;
 }
 .right {
   width: 65%;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -31,5 +39,6 @@
   }
   .right {
     padding: 0 20px;
+    margin-right: 0;
   }
 }

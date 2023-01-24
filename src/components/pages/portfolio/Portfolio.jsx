@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import { portfolio } from "../../data/data";
-import Heading from '../../common/heading/Heading';
+import Heading from "../../common/heading/Heading";
 
 const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))];
 
@@ -22,8 +22,8 @@ const Portfoliio = () => {
   return (
     <>
       <article>
-        <div className="container">
-          <Heading title="Projects" />
+        <Heading title="Projects" />
+        <div className="portfolio_container">
           <div className="catButton">
             {category.map((category, index) => (
               <button
@@ -40,7 +40,11 @@ const Portfoliio = () => {
             {list.map((item, index) => (
               <div className="box" data-aos="fade-up" key={item.id}>
                 <div className="img">
-                  <img src={item.cover} alt="" style={{width: "335px", height: "210px"}} />
+                  <img
+                    src={item.cover}
+                    alt=""
+                    style={{ width: "335px", height: "210px" }}
+                  />
                 </div>
                 <div className="">
                   <h3>{item.title}</h3>
