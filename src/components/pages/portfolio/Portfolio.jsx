@@ -22,7 +22,7 @@ const Portfoliio = () => {
   return (
     <>
       <article>
-        <Heading title="Projects" />
+        <Heading title="Projects" className="heading" />
         <div className="portfolio_container">
           <div className="catButton">
             {category.map((category, index) => (

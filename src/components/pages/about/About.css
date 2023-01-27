@@ -29,6 +29,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about {
+    margin-top: 100px;
+  }
   .about_container,
   .left,
   .right {

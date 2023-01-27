@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../data/images/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
+  const navigate = useNavigate();
   const [responsive, setResponsive] = useState(false);
   console.log(responsive);
 
@@ -12,12 +13,16 @@ const Header = () => {
     <>
       <header>
         <div className="container flexsb">
-          <div className="logo">
+          <div className="logo" onClick={() => navigate("/")}>
             <img src={logo} alt="" data-aos="zoom-in-right" />
           </div>
 
           <div className={responsive ? "hideMenu" : "nav"}>
-            <Link to="/" data-aos="zoom-in-left">
+            <Link
+              to="/"
+              data-aos="zoom-in-left"
+              onClick={() => setResponsive(false)}
+            >
               Home
             </Link>
             <Link
