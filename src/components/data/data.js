@@ -14,10 +14,20 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 export const portfolio = [
   {
+    id: 7,
+    cover: ChihoPortfolio,
+    github: "https://github.com/Chimoha31/Portfolio",
+    category: "frontend",
+    title: "Portfolio",
+    skill: ["react", "aos", "materialui", "emailjs", "vercel"],
+    url: "https://portfolio-chiho.vercel.app/"
+  },
+  {
     id: 1,
     cover: CUTORY,
     github: "https://github.com/Chimoha31/cutory",
     category: "fullstack",
+    skill: ["bootstrap", "figma", "react", "redux-toolkit", "node.js", "express", "MySql", "stripe","AWS", "heroku"],
     title: "E-Commerce",
     url: "https://cutory-client.herokuapp.com/"
   },
@@ -27,6 +37,7 @@ export const portfolio = [
     github: "https://github.com/Chimoha31/Ciccc_FinalProject",
     category: "fullstack",
     title: "Hotel Booking",
+    skill:["bootstrap", "react", "node.js", "express", "mongoDB", "firebase", "heroku"],
     url: "https://bookinghotel01.herokuapp.com/"
   },
   {
@@ -35,6 +46,7 @@ export const portfolio = [
     github: "https://github.com/Chimoha31/Chat_socket.io.git",
     category: "fullstack",
     title: "Realtime Chat App",
+    skill:["bootstrap", "react", "socket.io", "express", "heroku"],
     url: "https://chat-application001.herokuapp.com/"
   },
   {
@@ -42,7 +54,8 @@ export const portfolio = [
     cover: RECIPE,
     github: "https://github.com/Chimoha31/Recipe.git",
     category: "frontend",
-    title: "Search Recipe",
+    title:  "Ezy Pzy Recipe",
+    skill:["css", "jquery", "react", "materialui", "netlify"],
     url: "https://ezypzy-recipe.netlify.app/"
   },
   {
@@ -51,6 +64,7 @@ export const portfolio = [
     github: "https://github.com/Chimoha31/QrCode_Generator.git",
     category: "frontend",
     title: "QrCode Generator",
+    skill:["tailwind", "css", "react", "vercel"],
     url: "https://qrcode-generator-forfree.vercel.app/"
   },
   {
@@ -59,15 +73,8 @@ export const portfolio = [
     github: "https://github.com/Chimoha31/Rock_Paper_Scissors.git",
     category: "frontend",
     title: "Rock Paper Scissors",
+    skill:["sass", "react", "vercel"],
     url: "https://rock-paper-scissors-fungame.vercel.app/"
-  },
-  {
-    id: 7,
-    cover: ChihoPortfolio,
-    github: "https://github.com/Chimoha31/Portfolio",
-    category: "frontend",
-    title: "Portfolio",
-    url: "https://portfolio-chiho.vercel.app/"
   },
 ];
 

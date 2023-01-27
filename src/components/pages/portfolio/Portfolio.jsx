@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { portfolio } from "../../data/data";
 import Heading from "../../common/heading/Heading";
 
-const allCategory = [...new Set(portfolio.map((item) => item.category)), "all",];
+const allCategory = [...new Set(portfolio.map((item) => item.category)), "all"];
 
 const Portfoliio = () => {
   const [list, setLists] = useState(portfolio);
@@ -38,7 +38,7 @@ const Portfoliio = () => {
           </div>
           <div className="content grid3">
             {list.map((item, index) => (
-              <div className="box" data-aos="fade-up" key={item.id}>
+              <div className="portfolio_box" data-aos="fade-up" key={item.id}>
                 <div className="img">
                   <img
                     src={item.cover}
@@ -46,11 +46,16 @@ const Portfoliio = () => {
                     style={{ width: "335px", height: "210px" }}
                   />
                 </div>
-                <div className="">
+                <div>
                   <h3>{item.title}</h3>
                   <a href={item.github}>Github</a>
                   <span> / </span>
                   <a href={item.url}>App</a>
+                </div>
+                <div className="skills">
+                  {item.skill.map((s) => (
+                    <span key={s}>{s}</span>
+                  ))}
                 </div>
               </div>
             ))}
