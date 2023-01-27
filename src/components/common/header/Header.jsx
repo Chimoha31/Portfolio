@@ -20,13 +20,25 @@ const Header = () => {
             <Link to="/" data-aos="zoom-in-left">
               Home
             </Link>
-            <Link to="/about" data-aos="zoom-in-left">
+            <Link
+              to="/about"
+              data-aos="zoom-in-left"
+              onClick={() => setResponsive(false)}
+            >
               About
             </Link>
-            <Link to="/projects" data-aos="zoom-in-left">
+            <Link
+              to="/projects"
+              data-aos="zoom-in-left"
+              onClick={() => setResponsive(false)}
+            >
               Projects
             </Link>
-            <Link to="/contact" data-aos="zoom-in-left">
+            <Link
+              to="/contact"
+              data-aos="zoom-in-left"
+              onClick={() => setResponsive(false)}
+            >
               Contact
             </Link>
           </div>
