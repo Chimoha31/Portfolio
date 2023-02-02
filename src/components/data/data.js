@@ -37,7 +37,7 @@ export const portfolio = [
     github: "https://github.com/Chimoha31/Ciccc_FinalProject",
     category: "fullstack",
     title: "Hotel Booking",
-    skill:["bootstrap", "react", "node.js", "express", "mongoDB", "firebase", "heroku"],
+    skill:["bootstrap", "react", "ContextAPI", "node.js", "express", "mongoDB", "firebase", "heroku"],
     url: "https://bookinghotel01.herokuapp.com/"
   },
   {
