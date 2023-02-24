@@ -43,11 +43,11 @@ const Portfoliio = () => {
                   <img
                     src={item.cover}
                     alt=""
-                    style={{ width: "335px", height: "210px" }}
+                    style={{ width: "335px", height: "200px" }}
                   />
                 </div>
                 <div>
-                  <h3>{item.title}</h3>
+                  <h3 style={{marginTop: "5px"}}>{item.title}</h3>
                   <a href={item.github}>Github</a>
                   <span> / </span>
                   <a href={item.url}>App</a>

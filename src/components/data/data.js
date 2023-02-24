@@ -1,5 +1,6 @@
 // Project Image
 import CUTORY from '../data/projectImg/CUTORY.png'
+import PIANOTICK from '../data/projectImg/pianoTick.png'
 import HOTEL from '../data/projectImg/hotel_booking.png'
 import CHAT from '../data/projectImg/chat.png'
 import RECIPE from '../data/projectImg/recipe_app.png'
@@ -21,6 +22,15 @@ export const portfolio = [
     title: "Portfolio",
     skill: ["react", "aos", "materialui", "emailjs", "vercel"],
     url: "https://portfolio-chiho.vercel.app/"
+  },
+  {
+    id: 8,
+    cover: PIANOTICK,
+    github: "",
+    category: "fullstack",
+    skill: ["angular", "typescript", "figma", "node.js", "express", "mongodb", "MySql"],
+    title: "PianoTick(Coming soon)",
+    url: ""
   },
   {
     id: 1,
